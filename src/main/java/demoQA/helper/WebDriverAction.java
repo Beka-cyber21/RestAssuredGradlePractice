@@ -1,6 +1,6 @@
-package DemoQA.helper;
+package demoQA.helper;
 
-import DemoQA.driverPackage.DriverManager;
+import demoQA.driverPackage.DriverManager;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 
