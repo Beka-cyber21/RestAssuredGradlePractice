@@ -1,8 +1,7 @@
-package driverPackage;
+package DemoQA.driverPackage;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import utils.ConfigReader;
+import DemoQA.utils.ConfigReader;
 
 public class DriverManager {
     private static WebDriver driver;

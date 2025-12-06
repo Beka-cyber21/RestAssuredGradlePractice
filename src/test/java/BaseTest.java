@@ -1,8 +1,8 @@
-import driverPackage.DriverManager;
-import helper.WebDriverAction;
+import DemoQA.driverPackage.DriverManager;
+import DemoQA.helper.WebDriverAction;
 import org.junit.jupiter.api.BeforeAll;
 import org.openqa.selenium.WebDriver;
-import page.TextBoxPage;
+import DemoQA.page.TextBoxPage;
 
 public class BaseTest {
     public static WebDriver driver;

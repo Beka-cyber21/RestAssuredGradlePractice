@@ -1,4 +1,4 @@
-package utils;
+package DemoQA.utils;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
