@@ -10,6 +10,8 @@ repositories {
 }
 
 dependencies {
+    // https://mvnrepository.com/artifact/org.projectlombok/lombok
+    implementation("org.projectlombok:lombok:1.18.42")
     // https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager
     implementation("io.github.bonigarcia:webdrivermanager:6.3.3")
     // https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java
