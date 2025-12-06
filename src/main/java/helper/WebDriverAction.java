@@ -9,13 +9,15 @@ public class WebDriverAction {
     Actions actions = new Actions(DriverManager.getDriver());
 
     public WebDriverAction click(WebElement element) {
-        actions.click(element)
+        scrollToElement(element)
+                .actions.click(element)
                 .perform();
         return this;
     }
 
     public WebDriverAction sendKeys(WebElement element, String string) {
-        actions.sendKeys(element, string)
+        scrollToElement(element)
+                .actions.sendKeys(element, string)
                 .perform();
         return this;
     }
