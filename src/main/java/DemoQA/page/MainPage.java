@@ -1,7 +1,7 @@
-package page;
+package DemoQA.page;
 
-import driverPackage.DriverManager;
-import helper.WebDriverAction;
+import DemoQA.driverPackage.DriverManager;
+import DemoQA.helper.WebDriverAction;
 import org.openqa.selenium.support.PageFactory;
 
 public abstract class MainPage {
