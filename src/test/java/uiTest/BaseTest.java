@@ -1,3 +1,5 @@
+package uiTest;
+
 import demoQA.driverPackage.DriverManager;
 import demoQA.helper.WebDriverAction;
 import org.junit.jupiter.api.BeforeAll;
