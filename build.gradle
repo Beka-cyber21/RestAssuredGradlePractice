@@ -10,6 +10,8 @@ repositories {
 }
 
 dependencies {
+    // https://mvnrepository.com/artifact/com.github.javafaker/javafaker
+    implementation("com.github.javafaker:javafaker:1.0.2")
     // https://mvnrepository.com/artifact/org.projectlombok/lombok
     implementation("org.projectlombok:lombok:1.18.42")
     // https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager
