@@ -1,6 +1,15 @@
 package regresIn.pojoClasses;
 
-public class Data {
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+public class DataApi {
+    @Data
+    @NoArgsConstructor
+    @AllArgsConstructor
+    @Builder
     public class Datum {
         public int id;
         public String email;

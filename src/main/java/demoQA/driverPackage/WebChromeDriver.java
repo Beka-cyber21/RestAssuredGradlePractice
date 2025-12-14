@@ -1,4 +1,4 @@
-package driverPackage;
+package demoQA.driverPackage;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.PageLoadStrategy;
@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 import java.time.Duration;
 
-import static utils.ConfigReader.getValue;
+import static demoQA.utils.ConfigReader.getValue;
 
 public class WebChromeDriver {
     public static WebDriver loadChromeDriver() {

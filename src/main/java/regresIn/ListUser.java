@@ -1,5 +1,4 @@
-package regresIn.apiData;
+package regresIn;
 
 public class ListUser {
-
 }
